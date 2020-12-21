@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+.instagram-phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.instagram-phone img{
+    height: 50rem;
+}
+
+.instagram-continue{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+
+.group{
+    
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: white;
+    width: 350px;
+    padding: 1.3rem 10px;
+    border: 1px solid lightgray;
+
+    
+}
+.photo{
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    
+}
+.profile-photo{
+    margin-left: 70px;
+    padding: 20px;
+}
+.photoperfil{
+    width: 300px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.loggo{
+    margin-left: 50px;
+}
+.botaostyle{
+    width: 70px;
+    height: 40px;
+
+}
+.logginho{
+    color: white;
+    background: rgb(4, 156, 226);
+    border-radius: 4px;
+    border: 0.2px solid cyan;
+    font-size: 14px;
+    padding: 5px;
+}
+.instagram-logout{
+    margin-left: 20px;
+    color: rgb(9, 140, 201);
+}
+.notaccount{
+    padding-left: 100px;
+    color: lightgray;
+}
+.notaccounta{
+    padding-left: 70px;
+    color: lightgray;
+}
+.link-blue{
+    color: rgb(9, 140, 201);
+}
+
+.apple{
+    width: 100px;
+}
+.google{
+    width: 100px;
+}
+.get-app{
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
